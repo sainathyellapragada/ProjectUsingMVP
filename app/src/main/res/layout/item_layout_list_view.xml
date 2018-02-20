@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    android:orientation="horizontal">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp"
+        android:src="@mipmap/ic_launcher_round" />
+
+    <TextView
+        android:id="@+id/tv_list_name"
+        android:layout_width="300dp"
+        android:layout_height="20dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="10dp"
+        android:layout_toEndOf="@+id/imageView"
+        android:fontFamily="serif"
+        android:hint="Here Name will Appear"
+        android:textColor="@color/colorAccent"
+        android:textSize="18dp" />
+
+    <TextView
+        android:id="@+id/tv_list_description"
+        android:layout_width="300dp"
+        android:layout_height="20dp"
+        android:layout_alignBottom="@+id/imageView"
+        android:layout_alignStart="@+id/tv_list_name"
+        android:fontFamily="cursive"
+        android:hint="Here Description will Appear"
+        android:textColor="@color/colorAccent"
+        android:textSize="18dp" />
+
+
+</RelativeLayout>
